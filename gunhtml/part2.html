@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>part 2</title>
+  <link rel="stylesheet" href="part2.css">
+</head>
+<body>
+  
+    <div class="konten2">
+       
+      <h1>Kamu mau jadi orang special di hidup aku?</h1>
+      
+    <div class="untuk-btn">
+      
+      <a href="http://wa.me/62085710485016">
+      <button class="btn-pertama"> TERIMA </button>
+      </a>
+   
+      <button class="BtnKedua" onclick="gerakRandom()"> GA MAU</button>
+    </div>
+    
+  <script>
+  function gerakRandom() {
+    var button = document.getElementById('BtnKedua');
+    var maxX = window.innerWidth - button.clientWidth;
+    var maxY = window.innerHeight - button.clientHeight;
+
+    var randomX = Math.floor(Math.random() * maxX);
+    var randomY = Math.floor(Math.random() * maxY);
+
+    button.style.left = randomX + 'px';
+    button.style.top = randomY + 'px';
+  }
+</script>
+  
+    </div>
+  
+    <!-- FOOTER -->
+   <div class="footer">
+    <h1>GA BOLEH KLIK GAMAU</h1>
+    <h3>KLIK YANG DI BAWAH INI YA KALO MAU LIAT YANG INDAH</h3>
+    <a href="part3.html">
+      <button class="btn-ketiga">
+        KLIK DISINI
+    </button>
+  </a>
+   </div>
+
+</body>
+</html>

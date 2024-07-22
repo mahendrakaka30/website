@@ -1,0 +1,50 @@
+body{
+    font-family: cursive;
+    background-color: #51adc3;
+    margin:0;
+    padding:0;
+    font-size: 12px;
+    
+  }
+  
+  .konten2{
+    text-align: center;
+    background-color: #dddcdb;
+    max-width: 800px;
+    margin:50px auto;
+    padding:40px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,01);
+  }
+  
+  
+  .btn-pertama{
+    background-color: green;
+    border-color: green;
+    Border-radius:30px;
+    box-shadow: 0 0 10px rgba(0,0,0,01);
+     
+  }
+  
+  
+  .BtnKedua{
+    background-color: green;
+    border-radius: 50px;
+     position: center;
+  }
+
+  .footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-ketiga{
+    background-color: green;
+    border-color: green;
+    Border-radius:30px;
+    box-shadow: 0 0 10px rgba(0,0,0,01);
+  }
